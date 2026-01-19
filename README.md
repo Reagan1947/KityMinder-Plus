@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <br>
-  <img src="https://github.com/Reagan1947/latex2word/blob/master/codepen-brands%20(1).png" alt="KityMinder Plus" width="170">
+  <img src="https://github.com/Reagan1947/KityMinder-Plus/blob/main/mind-icon.png?raw=true" alt="KityMinder Plus" width="170">
   <br>
   KityMinder Plus
   <br>
