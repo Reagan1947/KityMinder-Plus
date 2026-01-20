@@ -8,7 +8,7 @@
   <br>
 </h1>
 
-<h4 align="center" font-weight:bold;">An easier-to-use open-source mind tool.</h4>
+<h4 align="center" font-weight:bold;">An easier-to-use open-source mind map tool.</h4>
 <p align="center">
 <img src="https://img.shields.io/badge/License-GNU-%23373737">
 <img src="https://img.shields.io/badge/Dependency-AngularJS-lightgrey">
