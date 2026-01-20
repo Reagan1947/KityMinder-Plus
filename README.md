@@ -31,7 +31,33 @@ This project is currently in its first phase, which includes:
 
 This project is developed based on the Kityminder Editor. The original project address is: https://github.com/fex-team/kityminder-editor
 
-### 1.2.3 License
+## 1.3 Developemt and Building
+
+### 1.3.1 Development
+
+The index.html file in the root directory is for the development environment, while the index.html file in the dist directory uses the packaged code and is suitable for production environments.
+
+Install Node.js and npm
+Initialization: Navigate to the kityminder-editor root directory and run `npm run init`
+Launch the project by running `grunt dev` in the kityminder-editor root directory
+You can develop based on the index.html in the root directory or review the production-ready index.html in the dist directory. Enjoy it!
+Additionally, kityminder-editor provides a Bower package for developers to use directly. In your project directory where kityminder-editor is needed, run `bower install kityminder-editor`. Then manually include the CSS and JS files kityminder-editor depends on—refer to `index.html` in the `dist` directory for specifics. We recommend using the npm package wireDep for automated setup; see `Gruntfile.js` in the root directory for details.
+
+### 1.3.2 Buiklding
+
+Run `grunt build`. Once completed, the `dist` directory will contain a fully functional kityminder-editor. Double-click `index.html` to open and run the example.
+
+### 1.3.3 Initial Setting
+
+Users can configure kityminder-editor as needed. The specific usage method is as follows:
+
+```js
+angular.module('kityminderDemo', ['kityminderEditor'])
+    .config(function (configProvider) {
+        configProvider.set('imageUpload', 'path/to/image/upload/handler');
+    });
+```
+
+## 1.4 License
 
 This project is developed and written under the GNU License.
-
