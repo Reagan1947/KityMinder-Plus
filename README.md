@@ -27,7 +27,7 @@ This project is currently in its first phase, which includes:
 1. Adjusting UI page styles
 2. Optimizing interaction logic
 
-### 1.2.2 Ohter information
+### 1.2.2 Other information
 
 This project is developed based on the Kityminder Editor. The original project address is: https://github.com/fex-team/kityminder-editor
 
