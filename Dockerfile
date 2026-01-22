@@ -4,6 +4,9 @@ FROM node:14-alpine AS builder
 # 设置工作目录
 WORKDIR /app
 
+# 安装系统依赖（git 是 bower 安装某些包所必需的）
+RUN apk add --no-cache git
+
 # 安装全局依赖
 RUN npm install -g grunt bower less
 
